@@ -6,3 +6,8 @@ The generated csv file will be saved in the directory where the nvt_extract.py f
 The code will not extract NVTs without a CVSS scoring (NVTs with CVSS 0.0 will be extracted). </br>
 
 **!Note: this python code is by no means coded securely, delete after finish running it.**
+
+If encounter ERROR:gvmtools.cli:[Errno 13] Permission denied
+```
+sudo chmod 662 /var/run/gvmd/gvmd.sock    # or where ever the gvmd.sock is located
+```
