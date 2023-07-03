@@ -1,4 +1,4 @@
-To extract OpenVAS NVTs name and CVSS score, modify the nvt_extract.py code's gvm username and password as a non-root user.
+To extract OpenVAS NVTs name and CVSS score, modify the nvt_extract.py code's gvm username and password as a **non-root user**.
 ```
 python nvt_extract.py
 ```
